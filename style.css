@@ -1,0 +1,83 @@
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#stopWatch{
+    font-size: 65px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+
+#countDown{
+    font-size: 65px;
+    color: #2a0af9;
+    font-family: consolas, monospace;
+}
+
+#setBox{
+    font-size: 65px;
+    color: #f90a16;
+    font-family: consolas, monospace;
+}
+
+#myDiv{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: consolas, monospace;
+    text-align: left;
+    padding: 5px;
+}
+
+#header{
+    font-size: 35px;
+    color: #ffffff;
+    font-family: consolas, monospace;
+}
+
+#digitsContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+    width: 400px;
+    align-items: center;
+}
+
+#puzzlesContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: #222222;
+    width: 400px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 4px;
+}
+
+#table{
+    font-size: 25px;
+    text-align: top;
+    border: 3px solid;
+    background-color: ffffff;
+    width: 400px;
+    /* height: 400px; */
+    align-items: center;
+}
+
+#puzzlesDiv{
+    text-align: left;
+    background-color: #222222;
+    width: 400px;
+    /* align-items: center; */
+    color: #ffffff;
+    font-size: 15px;
+    padding: 1px;
+}

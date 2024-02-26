@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<table id="table">
+
+        <tr>
+            <!-- Stopwatch -->
+            <div id="digitsContainer">
+                <div id="header">Time</div>
+                <div id="stopWatch">00:00</div>
+                <div id="countDown">70:00</div>
+                <button id="startBtn" class="timerBtn">Start</button>
+                <button id="pauseBtn" class="timerBtn">Pause</button>
+                <button id="resetBtn" class="timerBtn">Reset</button>  
+            </div>
+
+        </tr>
+
+        <tr>
+            <!-- Set Box -->
+            <div id="digitsContainer">
+                <div id="header">Box Opened </div>
+                <div id="setBox">00:00</div>
+                <button id="setBoxBtn" class="timerBtn">Set</button>
+                <button id="resetBoxBtn" class="timerBtn">Reset</button>
+            </div>
+        </tr>
+
+            <tr>
+                <div id="digitsContainer">
+                    <div id="header">Since Last</div>
+                    <div id="sinceLastBox">00:00</div>
+                </div>
+            </tr>
+</table>
+
+<script src="stopwatch.js"></script>
+<script src="countdown.js"></script>
+<script src="setBox.js"></script>
+<script src="sinceLast.js"></script>
+
+</body>
+
